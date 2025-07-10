@@ -1,0 +1,11 @@
+/* img {
+  width: 100px;
+  height: 100px;
+  background-repeat: repeat-x;
+} */
+.background {
+  background-image: url(Assets/icon-star.png);
+  width: 100px;
+  height: 100px;
+  background-repeat: repeat-x;
+}
