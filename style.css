@@ -89,7 +89,8 @@ nav {
   padding-bottom: 200px;
 }
 
-.banner h1 {
+.banner h1,
+.contact .left h3 {
   font-size: 65px;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -186,6 +187,7 @@ nav {
   display: flex;
   /* flex-direction: column; */
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .users-say .card .footer img {
@@ -203,4 +205,21 @@ nav {
 .users-say .card .footer .footer-txt .date {
   color: #b3b3b3;
   padding-top: 5px;
+}
+
+.focus {
+  /* display: flex; */
+  /* flex-direction: column; */
+  margin: 0 auto;
+  padding: 71px 150px;
+  margin-top: 137px;
+  text-align: center;
+  background-color: white;
+  border-radius: 24px;
+  width: 1200px;
+}
+
+.contact {
+  display: flex;
+  background-color: red;
 }
