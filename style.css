@@ -1,6 +1,9 @@
 /* google fonts */
-
+/* 1st front */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* 2nd front */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -34,6 +37,13 @@
   font-weight: 400;
   color: rgba(37, 36, 50, 0.5);
   padding-bottom: 23px;
+}
+
+.client-front {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4e47ff;
+  font-family: "Inter", sans-serif;
 }
 /* header start */
 header {
@@ -87,10 +97,28 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0px 159px 0px 141px;
+  margin-top: 116px;
 }
 
 .action-section .image img {
   border-radius: 48px;
   width: 403px;
   height: 328;
+}
+
+.client-section {
+  background-color: rgba(78, 71, 255, 0.1);
+  /* width: 1140px; */
+  height: 306px;
+  margin: 0 150px;
+  text-align: center;
+  margin-top: 116px;
+  border-radius: 24px;
+  padding: 50px 80px;
+}
+
+.client-section .txt {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
 }
