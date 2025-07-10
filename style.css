@@ -221,5 +221,42 @@ nav {
 
 .contact {
   display: flex;
-  background-color: red;
+  /* background-color: red; */
+  margin-top: 116px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact form label {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.contact form input {
+  width: 497px;
+  height: 70px;
+  padding: 20px 32px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  border-radius: 7px;
+}
+
+.contact form textarea {
+  resize: none;
+  padding: 20px 32px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  border-radius: 7px;
+  margin-bottom: 20px;
 }
