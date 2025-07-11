@@ -21,7 +21,7 @@ body {
   );
   background: linear-gradient(
     rgba(255, 255, 255, 1) 0%,
-    rgba(214, 221, 237, 1) 100%
+    rgba(214, 221, 235, 0.64) 100%
   );
 }
 
@@ -36,6 +36,12 @@ body {
   font-weight: bold;
   border: none;
   /* outline: none; */
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.primary-btn:hover {
+  background-color: #0b05b3;
 }
 
 .primary-front {
@@ -219,6 +225,14 @@ nav {
   width: 1200px;
 }
 
+.focus .txt p {
+  margin-bottom: 10px;
+  color: #8987a1;
+}
+
+.focus .txt button {
+  margin: 20px 0;
+}
 .contact {
   display: flex;
   /* background-color: red; */
@@ -236,6 +250,9 @@ nav {
 .contact form label {
   padding-bottom: 10px;
   padding-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
 }
 
 .contact form input {
