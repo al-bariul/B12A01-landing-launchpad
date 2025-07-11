@@ -225,6 +225,7 @@ nav {
   margin-top: 116px;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 116px;
 }
 
 .contact form {
@@ -259,4 +260,48 @@ nav {
   outline: none;
   border-radius: 7px;
   margin-bottom: 20px;
+}
+
+footer {
+  background: #ffffff;
+  padding: 116px 0;
+  text-align: center;
+}
+
+footer .footer {
+  width: 531px;
+  margin: 0 auto;
+}
+
+footer .logo-2 {
+  font-size: 100px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color: #4e47ff;
+}
+
+footer .info {
+  color: #8987a1;
+  font-size: 17px;
+  width: 531px;
+  margin: 0 auto;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: red; */
+  margin-top: 10px;
+  padding: 0px 50px;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #8987a1;
+  font-size: 14px;
 }
